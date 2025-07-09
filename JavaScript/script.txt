@@ -1,0 +1,29 @@
+What is JavaScript?
+JavaScript is a programming language used to make website and more interactive and responsive by adding functionalities,like animations, forms validation,dynamic content updates. its essential for modern web development and work in all web browsers.
+
+Uses JavaScript?
+client side scripting: A JavaScript is primarily used for adding interactivity  to websites such as form validation and animation ,dynamic content  updates and users interface enhancements.
+front end development:its the backbone of frontend development,enable developers and create a response and interactive user interface websites and web applications.
+serve-side scripting: with platform lke node.js , JavaScript is also can be used in serve side scripting, allowing developers build scable and high performance web servers and back end services.
+web applications development:JavaScript framewoksand libraries like react.js,angular.js ,are widely used for buliding complex ,web applications with rich user interfaces and dynamic content.
+game development: JavaScript,along with html5,and css3 is used for creting browsers-based game and interactive and experience.
+mobile application development: with farmeworks ike react native and ionic,JavaScript is useed for cross-platform mobile development ios and andorid platform.
+
+what is console? 
+in the context JavaScript is a built in object that provides developers with a way to interact with the debugging console.The console that provides methods for logging information,debuggingcode,and interacting with the JavaScript environment during development.
+
+uses console?
+logging messages.
+inspecting variables and objects.
+Time excution.
+
+variables:variables is a named container and storing data values. in JavaScript you can use variables to hold data that can be used and changed later in your code.
+the var keyword is decleard variable in javascript . variables decleard with var have function or global scope, meaning they can be accessed anywhere in their function or globally. 
+example: var age = 1o;
+console.log(age);
+
+parameter type in fuction?
+ They are 3 types:
+ optional parameter: optioanl parameter are parameter that may or may not provide when calling a function. if they are not provide ,they are typically treated as undefined.
+ default parameter: default parameter  allow you to set a default values for a parameter if no agruments it passed.
+ Rest parameter: rest parameter allows functions nd accept the indefinte number of agruments as an a array. They are useful when you dont know how many inputs you will pass to the function. 
