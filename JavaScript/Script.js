@@ -1,40 +1,36 @@
-// console.log("javascript");
+//Student Result
 
-// console.log("%c javascript", "color:blue")
+let Name=prompt("Enter your Name");
 
-// console.log ("%c Javascript", "background-color:red")
-
-// console.log("%cjavascript program", "background-color:red")
- 
-
- function redcolor(){
-     console.log("%c    ", "background-color:red");
- }
-
- //redcolor();
+let Marks=prompt("enter your marks");
 
 
+switch (true) {
+    case Marks >90 && Marks <=100:
+        result="Great you are the topper"
+    break;
 
- function fristsection(){
-    console.log("%c    ", "background-color:purple");
-    console.log("%c    ", "background-color:lightgray");
-    redcolor();
+    case Marks >65 && Marks <=90:
+        result="you got frist rank"
+    break;
 
- }
- fristsection();
+    case Marks >=40 && Marks < 65:
+        result= "you got second rank"
+    break;
 
- function secondsection(){
-     console.log("%c    ", "background-color:orange");
-     console.log("%c    ", "background-color:black");
-     redcolor();
+    case Marks >=30 && Marks <= 40:
+        result="you got third rank"
+    break;
 
- }
- secondsection();
+    case Marks <30:
+        result= " sorry you got falied better luck next time"
+    break;
 
- function thirdsection(){
-     console.log("%c    ", "background-color:green");
-     console.log("%c    ", "background-color:darkgrey");
-     redcolor();
+    default:
+        result="please enter your marks"
+        break;
+}
 
- }
- thirdsection();
+        document.write("Hello"+ Name + "<h2>"+ result+ "</h2>")
+
+
