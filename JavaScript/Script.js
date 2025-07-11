@@ -2,15 +2,21 @@
 // Function scope
 // Block Scope
 
-
 var Apple = "red";
-let orange = "yellow";
+let orange ="yellow";
 const banana = "green";
 
 function fruit(){
-    document.write(Apple)
-    document.write(orange)
-    document.write(Apple)
+    var x = 100;
+    let y = 200;
+    const z = "Mahesh"
+    document.write(x)
+    document.write(y)
+    document.write(z)
 }
 
+    
+
 fruit();
+
+
