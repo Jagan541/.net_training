@@ -2,21 +2,38 @@
 // Function scope
 // Block Scope
 
-var Apple = "red";
-let orange ="yellow";
-const banana = "green";
+function sports(){
 
-function fruit(){
-    var x = 100;
-    let y = 200;
-    const z = "Mahesh"
-    document.write(x)
-    document.write(y)
-    document.write(z)
+    if (10 < 20){
+
+        var tennis = "sania"
+        let cricket ="virat"
+        const ground = "stadium"
+       // document.write(cricket)
+        document.write(ground+ "<br>")
+
+
+    }
+
+
+    document.write(tennis)
+
+
 }
+
+
+
+sports()
+
+
+
+
+
+
+
+
 
     
 
-fruit();
 
 
