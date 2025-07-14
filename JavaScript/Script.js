@@ -1,12 +1,13 @@
 // let collections = ["reddy", true, { name: "Jagan"}]
 
-// unshift() = ("Adds one or more elements to the beginning of an array and retunrns the new length.")
+// concat() = ("combines two or more arrays and returns a new array.")
 
 
-let scores =[22, 56, 89, 105, "amar"];
 
-scores.unshift("suresh",26);
+let scores = [11, 22, 33, 44];
 
-document.write(scores + "<br>")
-document.write(scores.length)
+let players = ["amith", "suresh","mahesh"]
 
+let newPlayers = scores.concat(players)
+
+document.write(newPlayers);
