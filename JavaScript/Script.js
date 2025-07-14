@@ -1,13 +1,13 @@
 // let collections = ["reddy", true, { name: "Jagan"}]
- // pop() = ("Remove the last element from an array and returns that element.")
 
-let books = ["maths", "physics", "chemistry"];
+// shift() = ("Removes the frist element from an array and  returns that element.")
 
+let states = ["Delhi", " Mumbai", "hyderabad"];
 
-let someResult = books.pop()
+ let newstates = states.shift()
 
+document.write(states + "<br>");
 
+document.write(states.length + "<br>")
 
-document.write(books + "<br>")
-
-document.write( "Deleted by pop method is "+ someResult)
+document.write(newstates+ "<br>")
