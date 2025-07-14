@@ -1,13 +1,12 @@
 // let collections = ["reddy", true, { name: "Jagan"}]
 
-// shift() = ("Removes the frist element from an array and  returns that element.")
+// unshift() = ("Adds one or more elements to the beginning of an array and retunrns the new length.")
 
-let states = ["Delhi", " Mumbai", "hyderabad"];
 
- let newstates = states.shift()
+let scores =[22, 56, 89, 105, "amar"];
 
-document.write(states + "<br>");
+scores.unshift("suresh",26);
 
-document.write(states.length + "<br>")
+document.write(scores + "<br>")
+document.write(scores.length)
 
-document.write(newstates+ "<br>")
