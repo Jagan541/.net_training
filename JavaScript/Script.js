@@ -3,8 +3,11 @@
 // Function with parameters and Return value
 
 
-var a = function(){
-    document.write("This is called function Expression")
+function score(a, b) {
+    return a + b + "<br>"
 }
+document.write(score(10,20))
+document.write(score(355,240))
+document.write(score(140,280))
 
-a();
+
