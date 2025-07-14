@@ -3,13 +3,13 @@
 // Function with parameters and Return value
 
 
-function score(a, b) {
-    return a + b + "<br>"
-}
- function game(x,y){
-    return document.write("I like" + x + "and" +y)
- }
+var userName = prompt("please enter your Name")
 
- game("cricket","Football")
+function guest(myFriend){
+    return document.write("Hello Welocme " + myFriend)
+
+}
+
+guest(userName)
 
 
