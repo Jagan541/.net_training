@@ -1,13 +1,14 @@
 // let collections = ["reddy", true, { name: "Jagan"}]
 
-// concat() = ("combines two or more arrays and returns a new array.")
+// join() =" creates a new string by concatenating all the elements of an array and 
+// returns a string by a specified separator."
 
 
 
-let scores = [11, 22, 33, 44];
+var team =[10,20,30 ," jagan", "mohan", "reddy"]
 
-let players = ["amith", "suresh","mahesh"]
 
-let newPlayers = scores.concat(players)
+var myTeam = team.join("***")
 
-document.write(newPlayers);
+
+document.write(myTeam)
