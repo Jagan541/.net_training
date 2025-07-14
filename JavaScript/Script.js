@@ -1,15 +1,13 @@
-// Function Expression
-// Anonymous Function
-// Function with parameters and Return value
+// let collections = ["reddy", true, { name: "Jagan"}]
+ // pop() = ("Remove the last element from an array and returns that element.")
+
+let books = ["maths", "physics", "chemistry"];
 
 
-var userName = prompt("please enter your Name")
-
-function guest(myFriend){
-    return document.write("Hello Welocme " + myFriend)
-
-}
-
-guest(userName)
+let someResult = books.pop()
 
 
+
+document.write(books + "<br>")
+
+document.write( "Deleted by pop method is "+ someResult)
