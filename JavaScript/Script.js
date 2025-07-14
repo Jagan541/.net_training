@@ -6,8 +6,10 @@
 function score(a, b) {
     return a + b + "<br>"
 }
-document.write(score(10,20))
-document.write(score(355,240))
-document.write(score(140,280))
+ function game(x,y){
+    return document.write("I like" + x + "and" +y)
+ }
+
+ game("cricket","Football")
 
 
