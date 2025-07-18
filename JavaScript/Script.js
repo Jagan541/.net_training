@@ -1,23 +1,12 @@
-// Multi Dimensional Array
+// String Methods
+
+// split()
 
 
-let students =["anil", "sunil", "banti"]
+
+var Student = "ramesh";
 
 
-
-let marks = [
-    [ 
-        ["Anil","amar","anthony"],
-        ["Banit", "bably", 'bhanu']
-    ],
-    [10, 20, 30],
-    [40, 50, 60, 70],
-    [80, 90],
-    [100,200, 300, 400]
-]
-
-document.write( "my expected result : ",marks[0][0][1])
-
-//console.log(marks[1])
+document.write(Student.charAt(4));
 
 
