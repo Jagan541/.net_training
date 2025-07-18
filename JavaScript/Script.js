@@ -1,13 +1,23 @@
-
-//slice() = ( "Returns a shallow copy of a porti on of an array into a new array.")
-
-// splice() = ("change the contents of an array by removing, replaicng, or adding elements.")
+// Multi Dimensional Array
 
 
-let myNumbers = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+let students =["anil", "sunil", "banti"]
 
-let myNewNumbers = myNumbers.splice(0, 4, "something to see")
 
-document.write(myNumbers  + "<br>");
 
-document.write(myNewNumbers)
+let marks = [
+    [ 
+        ["Anil","amar","anthony"],
+        ["Banit", "bably", 'bhanu']
+    ],
+    [10, 20, 30],
+    [40, 50, 60, 70],
+    [80, 90],
+    [100,200, 300, 400]
+]
+
+document.write( "my expected result : ",marks[0][0][1])
+
+//console.log(marks[1])
+
+
