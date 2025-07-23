@@ -1,12 +1,7 @@
-// String Methods
+//for-loops
 
-// split()
-
-
-
-var Student = "ramesh";
+for( var a=10; a>0; a--){
+    document.write(a + ")" + "I love India" + "<br>")
 
 
-document.write(Student.charAt(4));
-
-
+}
